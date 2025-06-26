@@ -209,7 +209,6 @@ ul li {
 }
 
 /* === FORMATION === */
-/* (Même style que les expériences professionnelles pour cohérence) */
 .education-item {
   background-color: white;
   padding: 20px;
@@ -250,6 +249,7 @@ ul li {
 .contact-form button:hover {
   background-color: #3C77AD;
 }
+
 
 /* === Menu mobile === */
 .hamburger-menu {
@@ -343,4 +343,24 @@ menu ul li a {
   .mobile-menu {
     display: none;
   }
+}
+
+
+/* === Pied de page (Footer) === */
+.site-footer {
+  background-color: #ffffffde;
+  color: #1f1f3f;
+  text-align: center;
+  padding: 0.4rem 1rem;
+  border-top: 1px solid #3C77AD;
+  box-shadow: 0 2px 5px #3C77AD;
+  font-size: 0.9rem;
+  width: 100%;
+  position: relative;
+  bottom: 0;
+}
+
+.footer-content {
+  max-width: 1000px;
+  margin: 0 auto;
 }
