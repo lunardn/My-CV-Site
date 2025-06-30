@@ -34,7 +34,6 @@ const ContactInfoButton = () => {
           }}
         >
           <div><strong>Email:</strong> luna.rondineau@gmail.com</div>
-          <div><strong>Téléphone:</strong> +33 6 52 13 05 55</div>
         </div>
       )}
     </div>
