@@ -15,6 +15,9 @@ import Projects from './components/Projects';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 import ContactInfoButton from './components/ContactInfoButton';
+import HackerNewsFeed from './components/HackerNewsFeed';
+import WeatherWidget from './components/WeatherWidget';
+import GitHubProfile from './components/GitHubProfile';
 
 // Import des pages projets
 import Project1 from './components/ProjectDetails/Project1';
@@ -22,7 +25,7 @@ import Project2 from './components/ProjectDetails/Project2';
 import Project3 from './components/ProjectDetails/Project3';
 import Project4 from './components/ProjectDetails/Project4';
 import Project5 from './components/ProjectDetails/Project5';
-import Project6 from './components/ProjectDetails/Project6';  
+import Project6 from './components/ProjectDetails/Project6';
 
 // Composant de page d'accueil
 const Home = () => (
@@ -31,6 +34,10 @@ const Home = () => (
     <Preface />
     <main className="main-content">
       <About />
+      <WeatherWidget />
+      <GitHubProfile />
+      <HackerNewsFeed />
+      <br />
       <Experience />
       <Education />
       <Skills />

@@ -411,7 +411,7 @@ menu ul li a {
 }
 
 .back-button:hover {
-  background-color: #0056b3;
+  background-color: #3C77AD;
 }
 
 /* === Liens dans les cartes projets === */
@@ -425,5 +425,90 @@ menu ul li a {
 
 .card a:hover {
   color: #0056b3;
+  text-decoration: underline;
+}
+
+/* === Hacker News === */
+.hn-container {
+  background-color: #f9f9f9;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 2rem;
+}
+
+.hn-title {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+  color: #3C77AD;
+}
+
+.hn-list {
+  list-style: none;
+  padding: 0;
+}
+
+.hn-item {
+  margin-bottom: 0.8rem;
+  font-size: 1rem;
+}
+
+.hn-item a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+.hn-item a:hover {
+  color: #3C77AD;
+}
+
+
+/* === Metéo === */
+.weather-widget {
+  background: linear-gradient(135deg, #f0f4f8, #e0ecf4);
+  border-left: 5px solid #3C77AD;
+  padding: 1rem 1.5rem;
+  margin: 1.5rem 0;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  font-family: 'Segoe UI', sans-serif;
+  max-width: 300px;
+}
+
+.weather-widget h3 {
+  margin-top: 0;
+  font-size: 1.2rem;
+  color: #3C77AD;
+}
+
+.weather-widget p {
+  margin: 0.3rem 0;
+  font-size: 0.95rem;
+  color: #333;
+}
+
+
+/* === GitHub === */
+.github-profile {
+  background: linear-gradient(135deg, #f5f7fa, #e4ecf7);
+  border-left: 5px solid #24292e;
+  padding: 1rem 1.5rem;
+  margin: 1.5rem 0;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  font-family: 'Segoe UI', sans-serif;
+  max-width: 300px;
+}
+.github-profile h3 {
+  margin-top: 0;
+  font-size: 1.2rem;
+  color: #24292e;
+}
+.github-profile a {
+  color: #0366d6;
+  text-decoration: none;
+}
+.github-profile a:hover {
   text-decoration: underline;
 }
