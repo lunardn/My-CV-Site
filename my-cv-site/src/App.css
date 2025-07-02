@@ -365,7 +365,6 @@ menu ul li a {
   margin: 0 auto;
 }
 
-
 /* === Pages de projets === */
 .project-details {
   max-width: 1000px;
@@ -396,6 +395,16 @@ menu ul li a {
 
 .project-details a:hover {
   text-decoration: underline;
+}
+
+.project-details img {
+  width: 200px; /* Taille plus petite */
+  max-width: 70%;
+  border-radius: 6px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  margin: 1rem auto;
+  display: block;
+  transition: none; /* Pas d'effet de zoom */
 }
 
 /* === Bouton retour accueil === */
@@ -512,3 +521,7 @@ menu ul li a {
 .github-profile a:hover {
   text-decoration: underline;
 }
+
+
+
+

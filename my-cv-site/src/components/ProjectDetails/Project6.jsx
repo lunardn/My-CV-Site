@@ -41,6 +41,7 @@ const ProjectElectroLift = () => {
         <li><strong>FS5 :</strong> Affichage dynamique des étages, animation des portes et visualisation des appels via LEDs</li>
       </ol>
 
+
       <img src={fs1Diagram} alt="RTL Viewer de la FS1" style={{ width: '100%', margin: '20px 0' }} />  
       <img src={fs2Diagram} alt="Diagramme FS2" style={{ width: '100%', margin: '20px 0' }} />
       <img src={codePresidentiel} alt="Montage du code présidentiel" style={{ width: '100%', margin: '20px 0' }} />
