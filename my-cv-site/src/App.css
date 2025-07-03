@@ -382,6 +382,18 @@ menu ul li a {
   color: #3C77AD;
 }
 
+.project-details h3 {
+  font-size: 1.50rem;
+  margin-bottom: 1rem;
+  color: #65a8e7;
+}
+
+.project-details h4 {
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+  color: #1a4d7c;
+}
+
 .project-details p {
   font-size: 1rem;
   line-height: 1.6;
