@@ -19,11 +19,10 @@ const Project6 = () => {
         <strong>Electro-Lift</strong> est un projet d’électronique embarquée visant à concevoir un ascenseur intelligent et sécurisé à l’aide d’une carte FPGA et du logiciel Quartus. Ce projet a été réalisé dans le cadre d’un module d’électronique avancée, combinant programmation VHDL, conception matérielle et intégration de composants.
       </p>
 
-      <img src={montageFinal} alt="Montage final de l'Electro-Lift" style={{ width: '100%', margin: '20px 0' }} />
+      <h4>Objectif :</h4> 
+      <p>Concevoir un système de levage électronique innovant, efficace et sûr, capable de répondre aux besoins d’accessibilité dans un monde de plus en plus technologique.</p>
 
-      <p><strong>Objectif :</strong> Concevoir un système de levage électronique innovant, efficace et sûr, capable de répondre aux besoins d’accessibilité dans un monde de plus en plus technologique.</p>
-
-      <p><strong>Technologies utilisées :</strong></p>
+      <h4>Technologies utilisées :</h4>
       <ul>
         <li>Carte FPGA DE10-Lite</li>
         <li>Logiciel Quartus Prime et ModelSim</li>
@@ -32,7 +31,9 @@ const Project6 = () => {
         <li>Registre à décalage 74HC595</li>
       </ul>
 
-      <p><strong>Architecture fonctionnelle :</strong></p>
+      <img src={montageFinal} alt="Montage final de l'Electro-Lift" style={{ width: '100%', margin: '20px 0' }} />
+
+      <h4>Architecture fonctionnelle :</h4>
       <ol>
         <li><strong>FS1 :</strong> Activation du mode maintenance avec clignotement des LEDs et réglage de la vitesse via potentiomètre</li>
         <li><strong>FS2 :</strong> Traitement des commandes utilisateurs, y compris un code secret pour accéder à l’étage présidentiel</li>
@@ -278,7 +279,8 @@ const Project6 = () => {
       <img src={portesAnimation} alt="Animation des portes sur FPGA" style={{ width: '100%', margin: '20px 0' }} />
       <br />
 
-      <p><strong>Équipe :</strong> Luna Rondineau, Eléonore Videment, Romain Barrière, Halima Ghazi – une équipe pluridisciplinaire ayant mené à bien un projet complexe de conception électronique embarquée.</p>
+      <h4>Équipe :</h4> 
+      <p>Luna Rondineau, Eléonore Videment, Romain Barrière, Halima Ghazi – une équipe pluridisciplinaire ayant mené à bien un projet complexe de conception électronique embarquée.</p>
     </div>
   );
 };

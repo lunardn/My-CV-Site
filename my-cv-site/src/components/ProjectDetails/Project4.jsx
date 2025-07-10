@@ -23,9 +23,10 @@ const Project4 = () => {
         <strong>Gyrobot</strong> est un projet de robotique embarquée visant à concevoir un robot à deux roues capable de s’auto-stabiliser verticalement et de se déplacer en ligne droite. Ce projet a été réalisé dans le cadre du module d’électronique de l’ECE, en utilisant une carte Arduino Nano, une centrale inertielle MPU6050 et des servomoteurs.
       </p>
 
-      <p><strong>Objectif :</strong> Concevoir un robot gyropode capable de maintenir son équilibre, de se déplacer de manière stable et de réguler sa vitesse, tout en respectant des contraintes de précision et de réactivité.</p>
+      <h4>Objectif :</h4> 
+      <p>Concevoir un robot gyropode capable de maintenir son équilibre, de se déplacer de manière stable et de réguler sa vitesse, tout en respectant des contraintes de précision et de réactivité.</p>
 
-      <p><strong>Technologies utilisées :</strong></p>
+      <h4>Technologies utilisées :</h4>
       <ul>
         <li>Capteur MPU6050 (accéléromètre + gyroscope)</li>
         <li>Arduino Nano pour le contrôle embarqué</li>
@@ -35,8 +36,9 @@ const Project4 = () => {
       </ul>
 
       <img src={montageFinal} alt="Montage du Gyrobot" style={{ width: '50%', margin: '20px 0' }} />
+      <br />
 
-      <p><strong>Architecture fonctionnelle :</strong></p>
+      <h4>Architecture fonctionnelle :</h4>
       <img src={archifonct} alt="Architecture fonctionnelle du Gyrobot" style={{ width: '100%', margin: '20px 0' }} />
 
       <p>Le système repose sur une boucle de rétroaction en temps réel :</p>
@@ -283,13 +285,12 @@ const Project4 = () => {
       <p>Un schéma de bloc accompagne ce système pour illustrer les interactions entre les PID:</p>
       <img src={ET5bloc} alt="Schéma de Bloc de ET5" style={{ width: '100%', margin: '20px 0' }} />
 
-
-
-
       <br />
-      <p><strong>Défis rencontrés :</strong> Calibration fine des PID, gestion de la stabilité en mouvement, intégration matérielle (soudure, montage), et limitations physiques du robot (poids, inertie).</p>
+      <h4>Défis rencontrés :</h4> 
+      <p>Calibration fine des PID, gestion de la stabilité en mouvement, intégration matérielle (soudure, montage), et limitations physiques du robot (poids, inertie).</p>
 
-      <p><strong>Résultats :</strong> Le robot a réussi à :</p>
+      <h3>Résultats :</h3>
+      <p>Le robot a réussi à :</p>
       <ul>
         <li>Maintenir la verticale avec une erreur inférieure à 2%</li>
         <li>Tenir debout pendant 10 secondes avec une oscillation inférieure à ±15°</li>
@@ -297,7 +298,8 @@ const Project4 = () => {
         <li>Parcourir 80 cm en ligne droite dans un couloir de 25 cm</li>
       </ul>
 
-      <p><strong>Équipe :</strong> Luna Rondineau et Éléonore Videment – une collaboration efficace alliant compétences en électronique, programmation Arduino, modélisation Scilab et gestion de projet.</p>
+      <h4>Équipe :</h4>
+      <p>Luna Rondineau et Éléonore Videment – une collaboration efficace alliant compétences en électronique, programmation Arduino, modélisation Scilab et gestion de projet.</p>
     </div>
   );
 };
